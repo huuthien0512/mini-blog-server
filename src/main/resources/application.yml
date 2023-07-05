@@ -1,42 +1,42 @@
-logging:
-  level:
-    org:
-      springframework:
-        security: info
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 1234
-    url: jdbc:mysql://localhost:3306/miniblog
-    username: root
-  jpa: 
-    properties:
-      hibernate:
-        ddl-auto: validate
-        dialect: org.hibernate.dialect.MySQLDialect
-  main:
-    allow-circular-references: true
-
-    
-
 #logging:
 #  level:
 #    org:
 #      springframework:
 #        security: info
-#server:
-#  port: 8080
 #spring:
 #  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
-#    password: q5UTucENdZ2XgK7b8hNR
-#    url: jdbc:mysql://uynqr4wyt9x9imoe:q5UTucENdZ2XgK7b8hNR@badimphpr4chqfuajlcy-mysql.services.clever-cloud.com:3306/badimphpr4chqfuajlcy
-#    username: uynqr4wyt9x9imoe
-#  jpa:
+#    password: 1234
+#    url: jdbc:mysql://localhost:3306/miniblog
+#    username: root
+#  jpa: 
 #    properties:
 #      hibernate:
 #        ddl-auto: validate
 #        dialect: org.hibernate.dialect.MySQLDialect
 #  main:
 #    allow-circular-references: true
+
+    
+
+logging:
+  level:
+    org:
+      springframework:
+        security: info
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: q5UTucENdZ2XgK7b8hNR
+    url: jdbc:mysql://uynqr4wyt9x9imoe:q5UTucENdZ2XgK7b8hNR@badimphpr4chqfuajlcy-mysql.services.clever-cloud.com:3306/badimphpr4chqfuajlcy
+    username: uynqr4wyt9x9imoe
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: validate
+        dialect: org.hibernate.dialect.MySQLDialect
+  main:
+    allow-circular-references: true
     
